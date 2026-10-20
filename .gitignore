@@ -1,0 +1,24 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+local.properties
+
+# Android and Gradle
+.gradle/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# IDE and operating system
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
